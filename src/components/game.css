@@ -1,0 +1,365 @@
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+::-moz-placeholder {
+  text-align: center;
+}
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+Input {
+  text-align: center;
+}
+
+.my-balance {
+  font: Regular 25px/33px Segoe UI;
+  color: white;
+}
+.parent-game {
+  background-image: url("/assets/wave.png");
+  background-size: 100vw 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.main-div-bg-white {
+}
+.balances {
+  padding: 10px;
+}
+
+.balance-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.steps-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  box-shadow: 8px 8px 15px #143176;
+}
+.step-one,
+.step-two,
+.step-three {
+  width: 150px;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.First {
+  display: flex;
+  flex-direction: row;
+
+  color: #e2b946;
+  font-size: large;
+}
+.fs {
+  padding-left: 5px;
+}
+.First-amount {
+  display: flex;
+  flex-direction: row;
+}
+.first-Step {
+  background: #111e77 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000066;
+  opacity: 1;
+}
+
+.total-flip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+
+.amount-inp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.amount-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jallad {
+  display: flex;
+  flex-direction: column;
+}
+.youare {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3px;
+}
+
+.select-amount {
+  color: white;
+  font-size: xx-small;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.youare-betting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+
+.youare-betting-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.minus,
+.plus {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#ipp {
+  border-radius: 500px;
+}
+
+.heads {
+  display: flex;
+  flex-direction: row;
+  box-shadow: -1px -1px 1px #ffffff;
+  opacity: 1;
+  cursor: pointer;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  padding: 5px;
+}
+
+.house-bankroll {
+  color: white;
+}
+.heads:hover,
+.tails:hover {
+  color: white;
+  background: #111e77;
+}
+.row-center-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col-center-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.h-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.h-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: medium;
+}
+.winning-chance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: xx-small;
+}
+.head-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tails {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  cursor: pointer;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.tail-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.winning-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-img,
+.tail-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tail-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tail-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-Step {
+  background: #111e77 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000066;
+  opacity: 1;
+}
+
+.first-Step,
+.second-Step {
+  padding: 10px;
+}
+
+.xhallad {
+  padding: 10px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+.second {
+  padding-left: 3px;
+  color: #e2b946;
+  font-size: large;
+}
+.second-betting {
+  padding-left: 3px;
+}
+
+.select-betting {
+  font-size: xx-small;
+
+  color: white;
+}
+.ayy {
+  padding: 15px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+.star-coin {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 80px;
+  justify-content: center;
+  border: 1px solid #d3a156;
+}
+
+.selected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.flip-coin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#flip-button {
+  border: 1px solid #220868;
+  box-shadow: 5px 5px 10px;
+  background: #efc75e 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 10px #00000042;
+  border: 5px solid #220868;
+  opacity: 1;
+  color: #666161;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#ip-box {
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px -8px 15px #00000029;
+  opacity: 1;
+  opacity: 1;
+  color: black;
+  border-radius: 500px;
+}
+#your-bet {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 9px;
+  opacity: 1;
+  color: black;
+
+  cursor: default;
+}
+.-bet {
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  padding: 10px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+.ur-bet {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: #f5f5f5 0% 0% no-repeat;
+  box-shadow: 2px 2px 10px #0000004f;
+  opacity: 1;
+}
+.head-tail-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .heads,
+  .tails {
+    justify-content: center;
+  }
+}

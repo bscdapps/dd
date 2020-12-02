@@ -1,0 +1,125 @@
+.game-history-table-main {
+  display: flex;
+  flex-direction: row;
+
+  background: #1d234d 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.abq {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tab {
+  height: 50vh;
+  width: 60vw;
+}
+.text-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: large;
+}
+
+.hr-line {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 300%;
+  justify-content: center;
+}
+
+.hr-line-id {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+}
+
+.game-history-live {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-history-title {
+  display: flex;
+}
+.game-history-div {
+  display: flex;
+  width: 100vw;
+}
+
+.buttons-flex {
+  display: flex;
+  flex-direction: row;
+  background-color: #1d234d;
+  border-bottom: 1px solid black;
+}
+
+#btn {
+  border-radius: 0px;
+  background-color: white;
+  color: #666161;
+  font-size: small;
+}
+
+#btn:focus,
+#btn:hover {
+  background: #3ca7e4;
+  box-shadow: 0px 0px white;
+  color: white;
+}
+#btn:active {
+  box-shadow: 0px 0px 0px white;
+  color: white;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1d234d;
+}
+
+.main-table {
+  background-color: #1d234d;
+  color: white;
+  font-size: small;
+
+  color: #ffffff;
+  opacity: 1;
+
+  text-decoration: none;
+}
+
+thead {
+  border-top: hidden;
+  font-size: small;
+}
+
+.gme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: large;
+}
+
+.hist {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 6px;
+  font-size: large;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .tab {
+    width: 100%;
+    height: 100%;
+  }
+}
